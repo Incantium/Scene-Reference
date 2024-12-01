@@ -1,0 +1,22 @@
+{
+    "name": "Incantium.SceneField",
+    "rootNamespace": "Incantium",
+    "references": [
+        "GUID:62e3002916f2b244091c1e25aa475991"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.incantium.required",
+            "expression": "1.0.0",
+            "define": "MODULE_REQUIRED"
+        }
+    ],
+    "noEngineReferences": false
+}
