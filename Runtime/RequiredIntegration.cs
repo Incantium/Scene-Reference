@@ -8,7 +8,7 @@ namespace Incantium
          /// <summary>
          /// Check to see if there is a scene referenced.
          /// </summary>
-        public RequireStatus required => scene ? RequireStatus.Found : RequireStatus.Missing;
+        public RequireStatus status => scene ? RequireStatus.Found : RequireStatus.Missing;
     }
 }
 #endif
