@@ -1,6 +1,6 @@
 {
   "name": "com.incantium.scene-field",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "displayName": "Scene Field",
   "description": "Reference scenes from within the Unity Editor.",
   "unity": "2022.3",
