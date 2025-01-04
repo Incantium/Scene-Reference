@@ -1,5 +1,5 @@
 {
-    "name": "Incantium.SceneField.Editor",
+    "name": "Incantium.SceneReference.Editor",
     "rootNamespace": "Incantium",
     "references": [
         "GUID:ccae679931c503f4cade8cab59859c11"

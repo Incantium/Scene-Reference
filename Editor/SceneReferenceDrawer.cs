@@ -6,8 +6,8 @@ namespace Incantium.Editor
     /// <summary>
     /// Class that represents the custom inspector for a scene reference.
     /// </summary>
-    [CustomPropertyDrawer(typeof(SceneField))]
-    internal sealed class SceneFieldDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(SceneReference))]
+    internal sealed class SceneReferenceDrawer : PropertyDrawer
     {
         /// <inheritdoc cref="PropertyDrawer.OnGUI"/>
         /// <summary>

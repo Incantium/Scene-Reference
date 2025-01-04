@@ -11,7 +11,7 @@ namespace Incantium
     /// <seealso href="https://github.com/Incantium/Incantium-Core/blob/main/Documentation~/SceneField.md">
     /// SceneField</seealso>
     [Serializable]
-    public sealed partial class SceneField : ISerializationCallbackReceiver
+    public sealed partial class SceneReference : ISerializationCallbackReceiver
     {
         /// <summary>
         /// Reference to a scene that is engine-safe.
@@ -53,6 +53,6 @@ namespace Incantium
         /// </summary>
         /// <param name="scene">The scene reference.</param>
         /// <returns>The scene name.</returns>
-        public static implicit operator string(SceneField scene) => scene.name;
+        public static implicit operator string(SceneReference scene) => scene.name;
     }
 }

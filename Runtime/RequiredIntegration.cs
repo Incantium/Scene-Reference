@@ -3,7 +3,7 @@ using Incantium.Attributes;
 
 namespace Incantium
 {
-    public sealed partial class SceneField : IRequireable
+    public sealed partial class SceneReference : IRequireable
     {
          /// <summary>
          /// Check to see if there is a scene referenced.

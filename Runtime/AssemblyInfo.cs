@@ -1,1 +1,1 @@
-﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Incantium.SceneField.Editor")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Incantium.SceneReference.Editor")]
