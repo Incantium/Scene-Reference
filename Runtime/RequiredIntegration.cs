@@ -3,6 +3,9 @@ using Incantium.Attributes;
 
 namespace Incantium
 {
+    /// <summary>
+    /// Class handling the integration between <see cref="SceneReference"/> and <see cref="Required"/>.
+    /// </summary>
     public sealed partial class SceneReference : IRequireable
     {
          /// <summary>
